@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bunny Buddy</title>
+
+    <link href="styles.css" rel="stylesheet">
+    </script>
+
+</head>
+
+<body>
+
+    <div class="shop-background">
+
+    </div>
+
+    <div class="stat-box">
+        <button onclick="location.href = 'index.html'" class="stat-button">Home</button>
+
+        <div class="second-stat-box">
+            <h3 class="stat">
+                Balance
+            </h3>
+            <h3 id="coin-total" class="stat">
+
+            </h3>
+
+        </div>
+
+        <button onclick="location.href='inventory.html'" class="stat-button">Inventory</button>
+
+
+    </div>
+
+    </div>
+
+    <div class="welcome-box">
+
+        <h1 class="welcome-message">
+            Welcome to the shop!
+        </h1>
+
+
+    </div>
+    <div class="shop-box">
+
+
+
+
+
+        <div class="item">
+            <img class="item-image" src="img/fat-bunny/tutu.PNG" />
+            <div class="item-description">
+                <h3>
+                    Tutu
+                </h3>
+
+                <div class="counter-box">
+                    <button onclick="strawberryMinus()" class="counter">
+                        < </button>
+                            <div class="counter">
+                                <p id="strawberry-value">0</p>
+                            </div>
+                            <button onclick="strawberryPlus()" class="counter">
+                                >
+
+                            </button>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="item">
+            <img class="item-image" src="img/fat-bunny/sunhat.PNG" />
+            <div class="item-description">
+                <h3>
+                    Sunhat
+                </h3>
+
+                <div class="counter-box">
+                    <button class="counter" id="lettuce-minus">
+                        < </button onclick="lettuecMinus()">
+                            <div class="counter">
+                                <p id="lettuce-value">0</p>
+                            </div>
+                            <button onclick="lettucePlus()" class="counter" id="lettuce-plus">
+                                >
+
+                            </button>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="item">
+            <img class="item-image" src="img/fat-bunny/crown.PNG" />
+            <div class="item-description">
+                <h3>
+                    Crown
+                </h3>
+
+                <div class="counter-box">
+                    <button onclick="pizzaMinus()" class="counter" id="pizza-minus">
+                        < </button>
+                            <div class="counter">
+                                <p id="pizza-value">0</p>
+                            </div>
+                            <button onclick="pizzaPlus()" class="counter" id="pizza-plus">
+                                >
+
+                            </button>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="item">
+            <img class="item-image" src="img/fat-bunny/chain.PNG" />
+            <div class="item-description">
+                <h3>
+                    Gold Chain
+                </h3>
+
+                <div class="counter-box">
+                    <button onclick="sunhatMinus()" class="counter">
+                        < </button>
+                            <div class="counter">
+                                <p id="sunhat-value">0</p>
+                            </div>
+                            <button onclick="sunhatPlus()" class="counter">
+                                >
+
+                            </button>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
